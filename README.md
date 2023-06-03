@@ -6,7 +6,12 @@ Git alias merupakan kode shell sederhana yang disgunakan untuk memanipulasi bari
 
 Berikut langkah-langkah instalasi dan mengunakannya
 
-1. Clone git alias
+1. Clone repositori ini
+```bash
+
+git clone https://github.com/soifant/git-alias
+
+```
 2. Ketikan perintah `chmod +x git-alias/push.sh`
 3. Ketikan perintah `nano ~/.bashrc`
 4. Tambahkan kode `alias gp=git-alias/push.sh`
